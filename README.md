@@ -3,6 +3,7 @@ QR Code Scanner / code reader is the fastest QR code reader for android smartpho
 
 # Tech - Stack
 QR Code Library (Dexter) | Android Studio | Java
+Dependencies Used are
 
     implementation fileTree(dir: "libs", include: ["*.jar"])
     implementation 'androidx.appcompat:appcompat:1.3.1'
