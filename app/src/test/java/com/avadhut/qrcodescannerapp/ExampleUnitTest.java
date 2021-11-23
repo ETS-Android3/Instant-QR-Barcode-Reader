@@ -1,4 +1,4 @@
-package com.avadhut.qrcodereaderapp;
+package com.avadhut.qrcodescannerapp;
 
 import org.junit.Test;
 

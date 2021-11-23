@@ -1,4 +1,4 @@
-package com.avadhut.qrcodereaderapp;
+package com.avadhut.qrcodescannerapp;
 
 import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
