@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.avadhut.qrcodescannerapp">
+    package="com.avadhut.qr">
 
     <uses-permission android:name="android.permission.CAMERA" />
 
@@ -11,9 +11,10 @@
         android:roundIcon="@drawable/logo"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name="com.avadhut.com.avadhut.qrcodescannerapp.ScannerView" />
-        <activity android:name="com.avadhut.com.avadhut.qrcodescannerapp.MainActivity"
+        <activity android:name="com.avadhut.qr.ScannerView" />
+        <activity android:name="com.avadhut.qr.MainActivity"
             android:exported="true">
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

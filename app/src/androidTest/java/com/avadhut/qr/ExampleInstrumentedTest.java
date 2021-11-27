@@ -1,4 +1,4 @@
-package com.avadhut.qrcodescannerapp;
+package com.avadhut.qr;
 
 import android.content.Context;
 
