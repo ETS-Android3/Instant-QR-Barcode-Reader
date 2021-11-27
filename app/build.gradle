@@ -5,6 +5,7 @@ plugins {
 android {
     compileSdk 31
 
+
     defaultConfig {
         applicationId "com.avadhut.qrcodereaderapp"
         minSdk 26
