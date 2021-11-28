@@ -3,6 +3,8 @@ package com.avadhut.qr;
 import androidx.appcompat.app.AppCompatActivity;
 import android.Manifest;
 import android.os.Bundle;
+import android.widget.Toast;
+
 import com.google.zxing.Result;
 import com.karumi.dexter.Dexter;
 import com.karumi.dexter.PermissionToken;
@@ -31,7 +33,8 @@ public class ScannerView extends AppCompatActivity implements ZXingScannerView.R
 
                     @Override
                     public void onPermissionDenied(PermissionDeniedResponse permissionDeniedResponse) {
-
+                        Toast.makeText(ScannerView.this, "Please Press Back Button And Allow Camera Permission", Toast.LENGTH_SHORT).show();
+                        scannerView.stopCamera();
                     }
 
                     @Override
