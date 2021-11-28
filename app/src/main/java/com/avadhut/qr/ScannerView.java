@@ -59,4 +59,5 @@ public class ScannerView extends AppCompatActivity implements ZXingScannerView.R
         scannerView.setResultHandler(this);
         scannerView.startCamera();
     }
+
 }
