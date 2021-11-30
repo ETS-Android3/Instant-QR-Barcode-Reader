@@ -2,15 +2,16 @@ plugins {
     id 'com.android.application'
 }
 
+
 android {
-    compileSdk 31
+    compileSdk 30
 
     defaultConfig {
         applicationId "com.avadhut.qrcodereaderapp"
-        minSdk 26
-        targetSdk 31
-        versionCode 6
-        versionName "1.6"
+        minSdk 14
+        targetSdk 30
+        versionCode 11
+        versionName "30112021"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
