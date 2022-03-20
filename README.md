@@ -1,5 +1,5 @@
 # QR & Barcode Reader - Scanner App :
-QR Code Scanner / code reader is the fastest QR code reader for android smartphone users. QR code scanner app for android device to scan all QR code formats. Advance setting option to ensure scanner is optimised for your own android camera.
+QR Code Scanner / code reader is the fastest QR code reader for android smartphone users. QR code scanner app for android device to scan all QR code formats. Advance setting option to ensure scanner is optimised for your own android camera. 
 
 # Available on Play Store: https://play.google.com/store/apps/details?id=com.avadhut.qrcodereaderapp
 
